@@ -1,0 +1,226 @@
+         PveChaplainAndInvulnerabilityOnLethalDamage   =   {
+            type   =   {
+               activationTrigger   =   {
+                  hitConditionPropDiagramRootX   =   702
+                  hitConditionPropDiagramRootY   =   369
+                  hitCondition   =   {
+                     pdNodePosX   =   270
+                     pdNodePosY   =   366
+                     __type   =   "HitConditionHealthAmount"
+                  }
+                  __type   =   "PerkTriggerGotHit"
+               }
+               activationController   =   {
+                  delayedResetSec   =   180
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  applications   =   {
+                     PerkApplicationRestoreAbilityEnergy   =   {
+					  restorePercents   =   100
+					  __type   =   "PerkApplicationRestoreAbilityEnergy"
+                     }
+                     PerkApplicationEmitStatusEffectInvulnerability   =   {
+                        statusEffectDesc   =   {
+                           type   =   {
+                              statusEffectName   =   "InvulnerabilityMedium"
+                              __type   =   "TargetEmitter"
+                           }
+                           __type   =   "StatusEffectEmitterDesc"
+                        }
+                        targetProvider   =   {
+                           __type   =   "PerkApplicationStatusEffectTargetProviderSelf"
+                        }
+                        disableSEWithLogic   =   False
+                        __type   =   "PerkApplicationEmitStatusEffect"
+                     }
+                     PerkApplicationRestoreHealth   =   {
+                        healPoints   =   1
+                     }
+                  }
+                  __type   =   "PerkApplicationComposite"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainRestoreHealthOnArmourDestroyed   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnReachedFromAbove   =   True
+                  __type   =   "PerkTriggerArmorThresholdReached"
+               }
+               activationController   =   {
+                  delayedResetSec   =   10
+                  shouldIgnoreActivationTriggerIfActive   =   False
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  healPercent   =   25
+                  __type   =   "PerkApplicationRestoreHealth"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainRestoreArmorSegmentOnShoutForTeam   =   {
+            type   =   {
+               activationTrigger   =   {
+                  abilityDescriptionUid   =   "ability_threatening_battle_cry"
+                  __type   =   "PerkTriggerUseAbility"
+               }
+               activationController   =   {
+                  delayedResetSec   =   0
+                  __type   =   "PerkActivationControllerBinary"
+               }
+               application   =   {
+                  perkLink   =   "RestoreSegmentArmor"
+                  __type   =   "PerkApplicationAttachPerkToPlayers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainReducedIncomingMeleeDamageWhenSurrounded   =   {
+            type   =   {
+               activationTrigger   =   {
+                  maxDistance   =   15
+                  npcCount   =   5
+                  shouldTriggerOnLargerOrEqual   =   True
+                  pauseBetweenUpdates   =   0.5
+                  __type   =   "PerkTriggerNpcInAggro"
+               }
+               deactivationTrigger   =   {
+                  maxDistance   =   15
+                  npcCount   =   5
+                  shouldTriggerOnSmaller   =   True
+                  pauseBetweenUpdates   =   0.5
+                  __type   =   "PerkTriggerNpcInAggro"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "MELEE_DAMAGE_SENSITIVITY"
+                        bonus   =   -25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainIncreaseMeleeDamageWhenLowHP   =   {
+            type   =   {
+               activationTrigger   =   {
+                  needTriggerOnLowHp   =   True
+                  needTriggerOnUpperHp   =   False
+                  healthPercent   =   50
+                  __type   =   "PerkTriggerHealthChanged"
+               }
+               deactivationTrigger   =   {
+                  needTriggerOnUpperHp   =   True
+                  healthPercent   =   51
+                  __type   =   "PerkTriggerHealthChanged"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   25
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainShoutGivesArmor   =   {
+            type   =   {
+               activationTrigger   =   {
+                  abilityDescriptionUid   =   "ability_threatening_battle_cry"
+                  __type   =   "PerkTriggerUseAbility"
+               }
+               application   =   {
+                  perkLink   =   "RestoreArmor"
+                  __type   =   "PerkApplicationAttachPerkToPlayers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainPermanentEndurance   =   {
+            type   =   {
+               activationTrigger   =   {
+                  shouldTriggerOnReachedFromBelow   =   True
+                  threshold   =   1
+                  __type   =   "PerkTriggerArmorThresholdReached"
+               }
+               deactivationTrigger   =   {
+                  shouldTriggerOnReachedFromAbove   =   True
+                  __type   =   "PerkTriggerArmorThresholdReached"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "HEAVY_HIT_POISE_SENSITIVITY"
+                        bonus   =   -100
+                        applyType   =   "PERCENT_MULT"
+                     },
+                     {
+                        type   =   "HEAVY_HIT_INSTEAD_KNOCKBACK_PROBABILITY"
+                        bonus   =   100
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
+         PveChaplainIncreaseRangeDamageWhenAbilityOnCooldown   =   {
+            type   =   {
+               activationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        abilitySlot   =   "ULTIMATE"
+                        compareType   =   "SMALLER"
+                        energyPercent   =   100
+                        isPercentCheckSingleCharge   =   True
+                        isAbilityActivated   =   True
+                        __type   =   "ConditionAbilityState"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               deactivationTrigger   =   {
+                  condition   =   {
+                     condition   =   {
+                        abilitySlot   =   "ULTIMATE"
+                        compareType   =   "LARGER_OR_EQUAL"
+                        energyPercent   =   100
+                        isPercentCheckSingleCharge   =   True
+                        __type   =   "ConditionAbilityState"
+                     }
+                     __type   =   "ConditionTriggerHolder"
+                  }
+                  __type   =   "PerkTriggerCondition"
+               }
+               application   =   {
+                  permanentModifiers   =   [
+                     {
+                        type   =   "SCALE_DAMAGE_AMOUNT_FROM_MELEE"
+                        bonus   =   10
+                        applyType   =   "PERCENT_SUM"
+                     }
+                  ]
+                  __type   =   "PerkApplicationModifiers"
+               }
+               __type   =   "PerkServer"
+            }
+            __type   =   "PerkDesc"
+         }
