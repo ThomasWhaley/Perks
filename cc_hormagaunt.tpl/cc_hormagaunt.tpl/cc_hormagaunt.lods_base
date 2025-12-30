@@ -1,0 +1,951 @@
+lodInfo = {
+   maxLodDist = [
+
+   ]
+}
+__type = "tpl_markup"
+objSettings = {
+   exportedVersion = "OBJ_SETTINGS_EXPORT_VER_VISIBILITY"
+   settings = {
+      HEAD_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      HANDL_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM2L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM1L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      HANDR_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM2R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM1R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      BACKup_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      HAND_low_L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM2_low_L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM1_low_L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      HAND_low_R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM2_low_R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      ARM1_low_R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      BACKmiddle_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL6_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL5_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL4_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL3_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL2_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAIL1_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      TAILroot_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      FOOT2L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      FOOT1L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      LEG2L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      LEG1L_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      FOOT2R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      FOOT1R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      LEG2R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      LEG1R_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      CENTRE_cdt = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            visibleDefault = false
+            visibleInReflectionCubemap = false
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsGeom"
+      }
+      blades_01 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_01_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_01_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_01_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_01_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_01_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      blades_02_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_addition_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      chest_armor_default_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_01_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_02_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_03_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      head_04_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_caps_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      hormagaunt_mesh_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition_LOD1 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition_LOD2 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition_LOD3 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition_LOD4 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+      spine_addition_LOD5 = {
+         collision = {
+            __type = "tpl_markup_cdt_flags"
+         }
+         visibility = {
+            __type = "tpl_markup_visibility_flags"
+         }
+         __type = "TplObjSettingsSkinned"
+      }
+   }
+   all = {
+      visibility = {
+         __type = "tpl_markup_visibility_flags"
+      }
+   }
+}
